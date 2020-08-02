@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 400px;
+  }
+
+  .mat-card-content{
+    margin-left: 20px;
+  }
+.span-role{
+    margin-left: 10px;
+    display: inline-flex;
+    flex-direction: row;
+  }

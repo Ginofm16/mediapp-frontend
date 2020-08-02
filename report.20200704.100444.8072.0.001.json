@@ -1,0 +1,476 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200704.100444.8072.0.001.json",
+    "dumpEventTime": "2020-07-04T10:04:44Z",
+    "dumpEventTimeStamp": "1593875084291",
+    "processId": 8072,
+    "cwd": "E:\\Proyectos\\MitoCode Network\\Spring Angular 2020 - III\\frontend\\mediapp-frontend",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Proyectos\\MitoCode Network\\Spring Angular 2020 - III\\frontend\\mediapp-frontend\\node_modules\\@ngtools\\webpack\\src\\type_checker_worker.js",
+      "9d93e901-158a-4cf9-ba1b-2f0582ffcfeb"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 116546890,
+        "nice": 0,
+        "sys": 62775078,
+        "idle": 769835609,
+        "irq": 10999343
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 80878906,
+        "nice": 0,
+        "sys": 33107328,
+        "idle": 835171062,
+        "irq": 1164328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 128934906,
+        "nice": 0,
+        "sys": 40765562,
+        "idle": 779456828,
+        "irq": 712390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 93060859,
+        "nice": 0,
+        "sys": 29985609,
+        "idle": 826110828,
+        "irq": 520359
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 116242781,
+        "nice": 0,
+        "sys": 39091640,
+        "idle": 793822875,
+        "irq": 687906
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 83773062,
+        "nice": 0,
+        "sys": 24359156,
+        "idle": 841025046,
+        "irq": 468937
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 101949718,
+        "nice": 0,
+        "sys": 31119015,
+        "idle": 816088531,
+        "irq": 567437
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 113450796,
+        "nice": 0,
+        "sys": 45696031,
+        "idle": 790010437,
+        "irq": 361968
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network #7",
+        "internal": false,
+        "mac": "0a:00:27:00:00:3d",
+        "address": "fe80::b922:1921:f86c:2d9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 61
+      },
+      {
+        "name": "VirtualBox Host-Only Network #7",
+        "internal": false,
+        "mac": "0a:00:27:00:00:3d",
+        "address": "192.168.99.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "e4:b3:18:c6:88:ec",
+        "address": "fe80::b581:baa:a3b:d451",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 4
+      },
+      {
+        "name": "Wi-Fi 3",
+        "internal": false,
+        "mac": "e4:b3:18:c6:88:ec",
+        "address": "192.168.1.38",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "mito-pc"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7bca21729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7bca25b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff7bca24b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff7bcb1369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff7bd3182de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7bd300321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7bd1cdbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7bd1d8f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff7bd1d5ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff7bd1cb353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff7bd1c9b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff7bd1f1b17",
+      "symbol": "v8::internal::Factory::NewRawTwoByteString+87"
+    },
+    {
+      "pc": "0x00007ff7bd018d0c",
+      "symbol": "v8::internal::String::SlowFlatten+492"
+    },
+    {
+      "pc": "0x00007ff7bcee1cef",
+      "symbol": "unibrow::Utf8::EncodeOneByte+687"
+    },
+    {
+      "pc": "0x00007ff7bd016d7e",
+      "symbol": "v8::Name::GetIdentityHash+558"
+    },
+    {
+      "pc": "0x00007ff7bcf1c30a",
+      "symbol": "v8::internal::StubCache::value_reference+11658"
+    },
+    {
+      "pc": "0x00007ff7bd74404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00007ff7bd6c2903",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+37699"
+    },
+    {
+      "pc": "0x00007ff7bd71ed7c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+415676"
+    },
+    {
+      "pc": "0x00007ff7bd77f7f4",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+811572"
+    },
+    {
+      "pc": "0x00007ff7bd730bf5",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+489013"
+    },
+    {
+      "pc": "0x000000bbcdd57aae",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2170130432,
+    "totalCommittedMemory": 2170130432,
+    "usedMemory": 2082495136,
+    "availableMemory": 60522984,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 954848,
+        "available": 15804960
+      },
+      "old_space": {
+        "memorySize": 1928966144,
+        "committedMemory": 1928966144,
+        "capacity": 1887310848,
+        "used": 1887267072,
+        "available": 43776
+      },
+      "code_space": {
+        "memorySize": 6193152,
+        "committedMemory": 6193152,
+        "capacity": 5010496,
+        "used": 5010496,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 12062720,
+        "committedMemory": 12062720,
+        "capacity": 1040880,
+        "used": 1040880,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 188694528,
+        "committedMemory": 188694528,
+        "capacity": 187850248,
+        "used": 187850248,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 397312,
+        "committedMemory": 397312,
+        "capacity": 339296,
+        "used": 339296,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 567.75,
+    "kernelCpuSeconds": 33.812,
+    "cpuConsumptionPercent": 11.5975,
+    "maxRss": 2851258368,
+    "pageFaults": {
+      "IORequired": 2026617,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 29752,
+      "writes": 26
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\mitocode\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPOSE_CONVERT_WINDOWS_PATHS": "true",
+    "COMPUTERNAME": "MITO-PC",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "configsetroot": "C:\\WINDOWS\\ConfigSetRoot",
+    "C_EM64T_REDIST11": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\",
+    "DOCKER_CERT_PATH": "C:\\Users\\mitocode\\.docker\\machine\\machines\\default",
+    "DOCKER_HOST": "tcp://192.168.99.100:2376",
+    "DOCKER_MACHINE_NAME": "default",
+    "DOCKER_TLS_VERIFY": "1",
+    "DOCKER_TOOLBOX_INSTALL_PATH": "C:\\Program Files\\Docker Toolbox",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "easyplussdk": "\"C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin\"",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\mitocode",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\mitocode",
+    "JAVA_HOME": "C:\\Program Files\\Amazon Corretto\\jdk11.0.5_10",
+    "LANG": "es_ES.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\mitocode\\AppData\\Local",
+    "LOGONSERVER": "\\\\MITO-PC",
+    "M2_HOME": "C:\\Maven\\apache-maven-3.6.0\\",
+    "MAVEN_HOME": "C:\\Maven\\apache-maven-3.6.0\\",
+    "MOZ_PLUGIN_PATH": "C:\\PROGRAM FILES (X86)\\FOXIT SOFTWARE\\FOXIT READER\\plugins\\",
+    "MSYSTEM": "MINGW64",
+    "NO_PROXY": "192.168.99.100",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\mitocode\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\mitocode\\bin;C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.5.10-hotspot\\bin;C:\\Program Files\\Java\\jdk1.8.0_151\\bin;C:\\Program Files\\Amazon Corretto\\jdk11.0.5_10\\bin;C:\\Program Files\\Amazon Corretto\\jdk11.0.5_10\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\Skype\\Phone;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Maven\\apache-maven-3.6.0\\bin;C:\\Program Files\\PostgreSQL\\9.6\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PostgreSQL\\11\\bin;E:\\Flutter_SDK\\flutter_windows_1.17.3-stable\\flutter\\bin;C:\\Users\\mitocode\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Heroku\\bin;C:\\Users\\mitocode\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mitocode\\AppData\\Roaming\\npm;C:\\Program Files\\Docker Toolbox",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 94 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "5e03",
+    "PROG27B48B2C051": "1",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "E:/Proyectos/MitoCode Network/Spring Angular 2020 - III/frontend/mediapp-frontend",
+    "SESSIONNAME": "Console",
+    "SHLVL": "2",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\mitocode\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.46.1",
+    "TMP": "C:\\Users\\mitocode\\AppData\\Local\\Temp",
+    "TVT": "C:\\Program Files (x86)\\Lenovo",
+    "USERDOMAIN": "MITO-PC",
+    "USERDOMAIN_ROAMINGPROFILE": "MITO-PC",
+    "USERNAME": "mitocode",
+    "USERPROFILE": "C:\\Users\\mitocode",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-50e30b8323-sock",
+    "WEBPACK_DEV_SERVER": "true",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}

@@ -1,0 +1,52 @@
+<mat-card>Ingrese los datos</mat-card>
+
+<form class="example-container" [formGroup]="form" #frmSigno="ngForm" (ngSubmit)="operar()">
+
+    <div [hidden]="true">
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="ID" required formControlName="id">
+        </mat-form-field>
+    </div>
+
+    <mat-form-field >
+        <input matInput placeholder="Paciente" [matAutocomplete]="autoPaciente"
+            [formControl]="myControlPaciente" formControlName="paciente">
+    </mat-form-field>
+
+    <mat-autocomplete #autoPaciente="matAutocomplete" [displayWith]="mostrarPaciente" 
+        (optionSelected)="seleccionarPaciente($event)">
+        <mat-option *ngFor="let p of pacientesFiltrados | async" [value]="p">
+            {{ p.nombres }} {{p.apellidos}}
+        </mat-option>
+    </mat-autocomplete>
+
+    <mat-form-field class="example-full-width">        
+        <input matInput placeholder="Temperatura" required formControlName="temperatura">
+        <small *ngIf="f.temperatura.errors?.required" class="invalido">Temperatura es requerido</small>    
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="Pulso" required formControlName="pulso" type="number">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="Ritmo Cardiaco" required formControlName="ritmoCardiaco" type="number">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Escoge una fecha" [max]="maxFecha"
+            formControlName="fecha" [(ngModel)]="fechaSeleccionada">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="frmSigno.invalid">
+        <mat-icon>done</mat-icon>
+        <span>Aceptar</span>
+    </button>
+    <button mat-raised-button color="accent" routerLink='/paciente' type="button">
+        <mat-icon>close</mat-icon>
+        <span>Cancelar</span>
+    </button>
+
+</form>
